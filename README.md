@@ -6,7 +6,7 @@ In order to better understand some research, data has been gathered from the fol
 The datasets must be merged together so that authors from the PubMed dataset are paired with investigators from the clinicaltrials.gov dataset. This can be done easily for a small subset of these researchers by pairing researchers with the same unique orcid value.
 However, this value is not available for most researchers, so a different method must be used to pair them together. The Jupyter notebook shows analysis of the datasets, constructs a similarity score based on the analysis, and uses the pairwise_clustering function to get matches.
 
-## Data
+## Demo Data
 The two datsets are represented in two csv files. The PubMed data is contained in author.csv and the clinicaltrials.gov data is contained in investigator.csv.  
 Example instances from the author.csv:  
 |first_name|middle_name|lastname|coauthor_lastnames|topics|cities|countries|orcid|

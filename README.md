@@ -1,5 +1,5 @@
 # Pairwise Clustering
-This repo contains a pairwise clustering function in pairwise_clustering.py that can be imported to perform pairwise clustering on two separate sequences of data given a distance or similarity function which takes in the objects in those sequences and returns a float. It is based on freelancing work I did for a client. The jupyter notebook pairwise_clustering_demo.ipynb shows an example of the pairwise_clustering function being used on data and performing very well.
+This repo contains a pairwise clustering library in pairwise_clustering.py that can be imported to perform pairwise clustering on two separate sequences of data given a distance or similarity function which takes in the objects in those sequences and returns a float. It is based on freelancing work I did for a client. The jupyter notebook pairwise_clustering_demo.ipynb shows an example of the pairwise_clustering function being used on demo data and performing very well.
 
 ## Demo Problem
 In order to better understand some research, data has been gathered from the following public sources: PubMed, containing published scientific research, and clinicaltrials.gov, containing clinical trials.
